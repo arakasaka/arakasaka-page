@@ -7,19 +7,19 @@ import PrivacyPolicyJp from './PrivacyPolicyJp';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/arakasaka-page",
     element: <Root />,
   },
   {
-    path: "/arakasaka",
+    path: "/arakasaka-page/arakasaka",
     element: <PageContainer><PrivacyPolicy appName="AR AKASAKA" /></PageContainer>,
   },
   {
-    path: "/arsocial",
+    path: "/arakasaka-page/arsocial",
     element: <PageContainer><PrivacyPolicy appName="AR Social Media" /></PageContainer>,
   },
   {
-    path: "/arspot",
+    path: "/arakasaka-page/arspot",
     element: <PageContainer><PrivacyPolicy appName="AR Spot" /></PageContainer>,
   },
 ]);
