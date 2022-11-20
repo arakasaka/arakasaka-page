@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/arakasaka-page/static/css/main.e6c13ad2.css",
-    "main.js": "/arakasaka-page/static/js/main.234f42ba.js",
+    "main.js": "/arakasaka-page/static/js/main.feba0cd6.js",
     "static/js/787.bac9ee4a.chunk.js": "/arakasaka-page/static/js/787.bac9ee4a.chunk.js",
     "index.html": "/arakasaka-page/index.html",
     "main.e6c13ad2.css.map": "/arakasaka-page/static/css/main.e6c13ad2.css.map",
-    "main.234f42ba.js.map": "/arakasaka-page/static/js/main.234f42ba.js.map",
+    "main.feba0cd6.js.map": "/arakasaka-page/static/js/main.feba0cd6.js.map",
     "787.bac9ee4a.chunk.js.map": "/arakasaka-page/static/js/787.bac9ee4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.234f42ba.js"
+    "static/js/main.feba0cd6.js"
   ]
 }
