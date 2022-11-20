@@ -1,25 +1,26 @@
 import {
   createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import PrivacyPolicy from './PrivacyPolicy';
 import PrivacyPolicyJp from './PrivacyPolicyJp';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/arakasaka-page",
+    path: "/",
     element: <Root />,
   },
   {
-    path: "/arakasaka-page/arakasaka",
+    path: "/arakasaka",
     element: <PageContainer><PrivacyPolicy appName="AR AKASAKA" /></PageContainer>,
   },
   {
-    path: "/arakasaka-page/arsocial",
+    path: "/arsocial",
     element: <PageContainer><PrivacyPolicy appName="AR Social Media" /></PageContainer>,
   },
   {
-    path: "/arakasaka-page/arspot",
+    path: "/arspot",
     element: <PageContainer><PrivacyPolicy appName="AR Spot" /></PageContainer>,
   },
 ]);
