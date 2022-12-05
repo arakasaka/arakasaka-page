@@ -86,7 +86,7 @@ export default function PrivacyPolicyJp() {
 
             <h4>第10条（お問い合わせ窓口）</h4>
             <p>本ポリシーに関するお問い合わせは，下記の窓口までお願いいたします。</p>
-            <p>Eメールアドレス：arakasaka@gmail.com</p>
+            <p>Eメールアドレス：arakasakamitsuke@gmail.com</p>
             <p>以上</p>
         </>
     )
